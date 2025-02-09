@@ -87,3 +87,27 @@ button:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+.credit {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.credit a {
+    color: #4CAF50;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.credit a:hover {
+    text-decoration: underline;
+}
+
+.instagram-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
