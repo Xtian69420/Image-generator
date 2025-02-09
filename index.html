@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate AI Image</h1>
+        <p>Only 2 requests per minute</p>
+        <input type="text" id="prompt" placeholder="Enter a prompt">
+        <button onclick="generateImage()">Generate</button>
+        <button onclick="resetPage()">Reset</button>
+        <img id="generatedImage" src="" alt="Generated Image will appear here">
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modalMessage"></p>
+            <button onclick="closeModal()">Okay</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
