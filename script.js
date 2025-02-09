@@ -1,5 +1,5 @@
 async function generateImage() {
-    const apiKey = 'e966fbfb-6635-4f8a-9983-2dd5b27660ee';
+    const apiKey = 'c18df170-2eeb-4729-8b2b-46bba09fb5e5';
     const prompt = document.getElementById('prompt').value;  
 
     try {
